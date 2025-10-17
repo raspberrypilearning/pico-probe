@@ -11,7 +11,7 @@ Set the Raspberry Pi Pico securely on a breadboard or workspace so you can easil
 
 --- task ---
  
-Join a wire from **Probe A** to one end of an **10 kΩ resistor**; this resistor limits current and enables voltage measurement. In this diagram we have used a **terminal block** to join the trailing wires that will connect to the probes.
+Join a wire from **Probe A** to one end of a **10 kΩ resistor**; this resistor limits current and enables voltage measurement. In this diagram we have used a **terminal block** to join the trailing wires that connect to the sensor.
 ![](images/screw_probe0.png)
 
 --- /task ---
