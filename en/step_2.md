@@ -27,20 +27,13 @@ Check that the screw heads and threads remain isolated from each other; there sh
 --- /task ---
 
 --- task ---
+
+Mark one screw as **Probe A** and the other as **Probe B** - wrap them in different coloured wires by stripping the socket connector from some socket-pin jumper cables and taping or soldering the ends to the probes. The pin ends will come in handy later for connecting the sensor to your breadboard.
+
+--- /task ---
+
+--- task ---
  
 Fix a handle (for example, a yoghurt-cup stick, plastic straw, or short wooden dowel) to the top of the plastic base using tape or glue so the probe can be inserted into soil safely.
 
 --- /task ---
-
---- task ---
-
-Mark one screw as **Probe A** and the other as **Probe B** using a marker or small label to ensure consistent wiring in later steps.
-
---- /task ---
-
---- task ---
-  
-Wipe the metal surfaces with a cloth to remove oils or oxidation that might affect conductivity.
-
---- /task ---
-

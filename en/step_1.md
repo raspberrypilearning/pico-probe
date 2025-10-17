@@ -32,7 +32,7 @@ Youtube embed
 - 11kΩ resistor
 - LED (any color)
 - Recycled jig or support (any rigid material that can hold screws apart – e.g., bottle lid, yoghurt cup, popsicle stick, scrap wood/plastic)
-- Jumper wires
+- Jumper wires (Pin-Socket & Socket-Socket)
 
 **Optional:**
 - 5V USB power or battery pack (for portability)
