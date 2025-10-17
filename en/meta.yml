@@ -11,6 +11,7 @@ steps:
   - title: Wire the sensor circuit
   - title: Program the sensor
   - title: Add the LED indicator
+  - title: Code the LED indicator
   - title: Challenge
     challenge: true
     completion:
