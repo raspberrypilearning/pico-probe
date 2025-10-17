@@ -29,10 +29,10 @@ Youtube embed
 ### You will need:
 - Raspberry Pi Pico
 - Two metal screws (as soil probes)
-- 11kΩ resistor
+- 10kΩ (or 11kΩ) resistor
 - LED (any color)
 - Recycled jig or support (any rigid material that can hold screws apart – e.g., bottle lid, yoghurt cup, popsicle stick, scrap wood/plastic)
-- Jumper wires (Pin-Socket & Socket-Socket)
+- Jumper wires (Pin-Socket & Pin-Pin)
 
 **Optional:**
 - 5V USB power or battery pack (for portability)
