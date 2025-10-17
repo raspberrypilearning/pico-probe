@@ -21,7 +21,6 @@ from time import sleep
 
 --- task ---
 
-Create an ADC object for the soil probe  
 Set up the Pico to read the analogue signal from **Pin 26**, which is connected to the soil moisture probe.
 
 --- code ---
