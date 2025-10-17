@@ -1,8 +1,6 @@
 ## What you will make
-OR
-## What you will do - change meta if you use this
 
-A brief description - one or two sentences. 
+This upgradeable project uses a soil moisture probe to detect how dry the soil is and alerts the user with a warning LED. When the soil’s moisture level drops below a set threshold, the LED turns on, signaling that the plant needs watering.
 
 --- print-only ---
 
@@ -18,12 +16,6 @@ A brief description - one or two sentences.
 
 --- no-print ---
 
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
 Youtube embed 
 <html>
 <div style="position: relative; overflow: hidden; padding-top: 56.25%;">
@@ -32,14 +24,17 @@ Youtube embed
 </div><br>
 </html>
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
-
 --- /no-print ---
 
 ### You will need:
-- a
-- b
-- c
+- Raspberry Pi Pico
+- Two metal screws (as soil probes)
+- 11kΩ resistor
+- LED (any color)
+- Recycled jig or support (any rigid material that can hold screws apart – e.g., bottle lid, yoghurt cup, popsicle stick, scrap wood/plastic)
+- Jumper wires
+
+**Optional:**
+- 5V USB power or battery pack (for portability)
+
+

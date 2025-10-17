@@ -1,4 +1,4 @@
-## Program Your Sensor
+## Program the sensor
 
 --- task ---
 
