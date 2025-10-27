@@ -13,7 +13,7 @@ line_number_start: 1
 line_highlights: 1-2
 ---
 
-from machine import Pin, ADC  
+from picozero import Pot, LED
 from time import sleep
 --- /code ---
 
@@ -31,10 +31,10 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 4
 ---
-from machine import Pin, ADC  
+from picozero import Pot
 from time import sleep
 
-sensor = ADC(26)  # Soil probe input
+sensor = Pot(26)  # Soil probe input
 --- /code ---
 
 --- /task ---
@@ -51,14 +51,15 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 6-9
 ---
-from machine import Pin, ADC  
+from picozero import Pot
 from time import sleep
 
-sensor = ADC(26)  # Soil probe input
+sensor = Pot(26)  # Soil probe input
+
 
 while True:  
-    reading = sensor.read_u16()  
-    print("Soil moisture:", reading)  
+    reading = sensor.value()  
+    print("Soil moisture:", round(reading, 2))  
     sleep(1)
 --- /code ---
 

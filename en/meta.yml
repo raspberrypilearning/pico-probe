@@ -10,6 +10,8 @@ steps:
       - engaged      
   - title: Wire the sensor circuit
   - title: Program the sensor
+    completion:
+      - internal
   - title: Add the LED indicator
   - title: Code the LED indicator
   - title: Challenge
