@@ -49,13 +49,12 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 7-10
+line_highlights: 6-9
 ---
 from picozero import Pot
 from time import sleep
 
 sensor = Pot(26)  # Soil probe input
-
 
 while True:  
     reading = sensor.value()  
