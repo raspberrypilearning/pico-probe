@@ -39,7 +39,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 6
+line_highlights: 5
 ---
 
 from picozero import Pot, LED
@@ -67,7 +67,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 8
+line_highlights: 7
 ---
 
 from picozero import Pot, LED
@@ -97,7 +97,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 13-18
+line_highlights: 13-16
 ---
 
 from picozero import Pot, LED
