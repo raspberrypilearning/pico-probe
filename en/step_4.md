@@ -49,7 +49,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 6-9
+line_highlights: 7-10
 ---
 from picozero import Pot
 from time import sleep
