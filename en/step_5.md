@@ -28,7 +28,7 @@ Attach the longer leg of the LED to one end of a **220 Ω resistor**; this resis
 
 --- task ---
 
-Use a jumper wire to connect the resistor to **Pin 1** to make sure that the LED lights up.
+Use a jumper wire to connect the resistor to **Pin 36** to make sure that the LED lights up. This pin is always putting out 3V.
 ![](images/screw_probe_LED3.png)
 
 --- /task ---
