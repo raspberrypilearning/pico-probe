@@ -1,6 +1,6 @@
 ## Program the sensor
 
-If you need help getting your Raspberry Pi Pico up and running, check out our [Getting Started with Pico Guide](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){target="_blank"}
+If you need help getting your Raspberry Pi Pico up and running, check out our [Getting Started with Pico Guide](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}
 
 --- task ---
 
@@ -21,7 +21,7 @@ line_number_start: 1
 line_highlights: 1-2
 ---
 
-from picozero import Pot, LED
+from picozero import Pot
 from time import sleep
 --- /code ---
 

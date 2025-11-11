@@ -23,7 +23,7 @@ Attach the shorter leg of the LED to a **GND** pin on the pico.
 
 --- task ---
  
-Attach the longer leg of the LED to one end of a **220 Ω resistor**; this resistor limits current through the LED.
+Attach the longer leg of the LED to one end of a **220 Ω resistor**. This resistor limits current through the LED.
 ![](images/screw_probe_LED2.png){:width="300px"}
 
 --- /task ---
@@ -38,16 +38,16 @@ Use a jumper wire to connect the resistor to **Pin 36** to make sure that the LE
 --- task ---
 
 If your LED doesn't light:
-- Check you have the LED's long leg connected to the resistor and the short leg connected to GND; LEDs only work one way around.
+- Check you have the LED's long leg connected to the resistor and the short leg connected to GND. LEDs only work one way around.
 - Check your LED is not damaged
-- Ensure the LED and resistor wiring do not interfere with the sensor circuit and that no components are shorted.
+- Make sure the LED and resistor wiring do not touch the sensor circuit and that no components are shorted.
 - Replace the LED and check again
 
 --- /task ---
 
 --- task ---
 
-Move the jumper wire connected to the resistor from Pin 1 to **Pin 14** on the Pico; this pin will control the LED signal.
+Move the jumper wire connected to the resistor from Pin 1 to **Pin 14** on the Pico. This pin will control the LED signal.
 ![](images/screw_probe_LED4.png){:width="300px"}
 
 --- /task ---

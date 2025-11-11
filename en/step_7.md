@@ -8,7 +8,7 @@ Add a **buzzer** to your project to give an audio warning when the soil becomes 
 
 --- task ---
 
-Add a second sensor on **Pin27** and another LED to monitor multiple pots.
+Add a second sensor on **Pin27** and another LED to monitor multiple plants.
 
 --- /task ---
 

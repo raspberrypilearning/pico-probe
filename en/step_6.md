@@ -79,7 +79,7 @@ led = LED(14)          # LED output pin
 dry_limit = 0.6        # Adjust this number after testing
 
 while True:
-    reading = sensor.value()
+    reading = sensor.value
     print("Soil moisture:", round(reading, 2))
     sleep(1)
 --- /code ---
@@ -89,7 +89,7 @@ while True:
 --- task ---
 
 Inside the `while True:` loop, add an `if` statement to compare the reading to your dryness limit.  
-**If** the soil is too dry, the LED turns on; **otherwise**, it stays off.
+**If** the soil is too dry, the LED turns on. **Otherwise**, it stays off.
 
 --- code ---
 ---
@@ -109,10 +109,10 @@ led = LED(14)          # LED output pin
 dry_limit = 0.6        # Adjust this number after testing
 
 while True:
-    moisture = sensor.value
+    reading = sensor.value
     print("Soil moisture:", round(moisture, 2))
 
-    if moisture > dry_limit:     # Soil is too dry
+    if reading > dry_limit:     # Soil is too dry
         led.on()
     else:                        # Soil is fine
         led.off()
