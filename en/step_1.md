@@ -1,6 +1,6 @@
 ## What you will make
 
-This upgradeable project uses a soil moisture probe to detect how dry the soil is and alerts the user with a warning LED. When the soil’s moisture level drops below a set threshold, the LED turns on, signaling that the plant needs watering.
+A soil moisture sensor to check how dry the soil is. It warns the user with a light. When the soil becomes too dry, the light turns on to show that the plant needs water.
 
 --- print-only ---
 
@@ -27,14 +27,24 @@ Youtube embed
 --- /no-print ---
 
 ### You will need:
-- Raspberry Pi Pico
-- Two metal screws (as soil probes)
-- 10kΩ (or 11kΩ) resistor
-- LED (any color)
-- Recycled jig or support (any rigid material that can hold screws apart – e.g., bottle lid, yoghurt cup, popsicle stick, scrap wood/plastic)
-- Jumper wires (Pin-Socket & Pin-Pin)
 
-**Optional:**
-- 5V USB power or battery pack (for portability)
+**For the circuit:**
+- Raspberry Pi Pico
+- Pin-pin jumper wires
+- Terminal block
+- 10kΩ or 11kΩ resistor
+- LED (any color)
+- 5V USB power or battery pack (optional)
+
+**For the soil probe:**
+- Two metal screws
+- Material to hold the screws (bottle lid, yoghurt cup, popsicle stick, or scrap wood)
+- Scissors
+- Pen?
+- Handle material (such as…..
+- Wire stippers?
+- Glue / tape?
+- Pin-socket jumper wires 
+
 
 

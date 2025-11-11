@@ -3,7 +3,7 @@
 --- task ---
 
 Insert the LED into the breadboard. Place the LED so that its legs are in separate rows, allowing space to connect a resistor and jumper wires.
-![](images/screw_probe_LED0.png)
+![](images/screw_probe_LED0.png){:width="300px"}
 --- /task ---
 
 --- task ---
@@ -15,21 +15,21 @@ Confirm which leg of the LED is longer (anode, positive) and which is shorter (c
 --- task ---
 
 Attach the shorter leg of the LED to a **GND** pin on the pico.
-![](images/screw_probe_LED1.png)
+![](images/screw_probe_LED1.png){:width="300px"}
 
 --- /task ---
 
 --- task ---
  
 Attach the longer leg of the LED to one end of a **220 Ω resistor**; this resistor limits current through the LED.
-![](images/screw_probe_LED2.png)
+![](images/screw_probe_LED2.png){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
 Use a jumper wire to connect the resistor to **Pin 36** to make sure that the LED lights up. This pin is always putting out 3V.
-![](images/screw_probe_LED3.png)
+![](images/screw_probe_LED3.png){:width="300px"}
 
 --- /task ---
 
@@ -46,7 +46,7 @@ If your LED doesn't light:
 --- task ---
 
 Move the jumper wire connected to the resistor from Pin 1 to **Pin 14** on the Pico; this pin will control the LED signal.
-![](images/screw_probe_LED4.png)
+![](images/screw_probe_LED4.png){:width="300px"}
 
 --- /task ---
 
