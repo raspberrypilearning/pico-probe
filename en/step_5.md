@@ -2,15 +2,17 @@
 
 --- task ---
 
-Insert the LED into the breadboard. Place the LED so that its legs are in separate rows, allowing space to connect a resistor and jumper wires.
-![](images/screw_probe_LED0.png){:width="300px"}
+Confirm which leg of the LED is longer (anode, positive) and which is shorter (cathode, negative).
+![](images/LED_legs.jpg)
+
 --- /task ---
 
 --- task ---
 
-Confirm which leg of the LED is longer (anode, positive) and which is shorter (cathode, negative).
-
+Insert the LED into the breadboard. Place the LED so that its legs are in separate rows, allowing space to connect a resistor and jumper wires.
+![](images/screw_probe_LED0.png){:width="300px"}
 --- /task ---
+
 
 --- task ---
 

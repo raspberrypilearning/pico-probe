@@ -1,8 +1,16 @@
 ## Program the sensor
 
+If you need help getting your Raspberry Pi Pico up and running, check out our [Getting Started with Pico Guide](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){target="_blank"}
+
 --- task ---
 
-Add the libraries needed to access the Pico’s analogue input and timing functions.
+Open a **new script** in your code editor.
+
+--- /task ---
+
+--- task ---
+
+Add the `time` and `picozero` libraries needed to access the Pico’s input and timing functions.
 
 --- code ---
 ---
@@ -21,7 +29,7 @@ from time import sleep
 
 --- task ---
 
-Set up the Pico to read the analogue signal from **Pin 26**, which is connected to the soil moisture probe.
+Set up the Pico to read the analogue signal from **Pin 26**, which is connected to Probe A.
 
 --- code ---
 ---
@@ -41,7 +49,7 @@ sensor = Pot(26)  # Soil probe input
 
 --- task ---
 
-Continuously take readings from the soil probe, print them to the Shell, and pause briefly before the next reading.
+Continuously take readings from the soil probe. Print them to the Shell, and pause briefly before the next reading.
 
 --- code ---
 ---
@@ -57,7 +65,7 @@ from time import sleep
 sensor = Pot(26)  # Soil probe input
 
 while True:  
-    reading = sensor.value()  
+    reading = sensor.value  
     print("Soil moisture:", round(reading, 2))  
     sleep(1)
 --- /code ---
