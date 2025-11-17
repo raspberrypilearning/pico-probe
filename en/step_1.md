@@ -4,7 +4,7 @@ A soil moisture sensor to check how dry the soil is. It warns the user with a li
 
 --- print-only ---
 
-![ALT TEXT](images/probedemo.png)
+![ soil moisture sensor to check how dry the soil is. It warns the user with a light. When the soil becomes too dry, the light turns on to show that the plant needs water.](images/probedemo.png)
 
 --- /print-only ---
 
