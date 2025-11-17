@@ -6,7 +6,7 @@ Connect the probe to the pins on the Pico so you can measure the resistance of t
 --- task ---
  
 Set the Raspberry Pi Pico securely on a breadboard or workspace so you can easily access all pins for wiring.
-![](images/probe1.png)
+![](images/probe1.png){:width="300px"} 
 
 --- /task ---
 
