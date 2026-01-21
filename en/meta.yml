@@ -1,6 +1,6 @@
-title: Soil Moisture Sensor
+title: Soil moisture sensor
 hero_image: images/banner.png
-description: This introductory project uses a soil moisture probe to detect how dry the soil is and alerts the user with a warning LED. When the soil’s moisture level drops below a set threshold, the LED turns on, signaling that the plant needs watering.
+description: Make a soil moisture probe to detect how dry the soil is and turn on a warning light when it is too dry
 listed: false
 pdf: false
 steps:
@@ -13,7 +13,7 @@ steps:
     completion:
       - internal
   - title: Add the LED indicator
-  - title: Code the LED indicator
+  - title: Program the LED indicator
   - title: Challenge
     challenge: true
     completion:
