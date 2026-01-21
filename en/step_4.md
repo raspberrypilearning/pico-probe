@@ -1,6 +1,6 @@
 ## Program the sensor
 
-If you need help getting your Raspberry Pi Pico up and running, check out our [Getting Started with Pico Guide](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"}
+If you need help getting ready to program your Raspberry Pi Pico, check out our ['Getting started with Raspberry Pi Pico' guide](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/2){:target="_blank"} for support.
 
 --- task ---
 
@@ -10,7 +10,7 @@ Open a **new script** in your code editor.
 
 --- task ---
 
-Add the `time` and `picozero` libraries needed to access the Pico’s input and timing functions.
+Add the `picozero` and `time` classes you need to access the Raspberry Pi Pico's input and timing functions.
 
 --- code ---
 ---
@@ -29,7 +29,7 @@ from time import sleep
 
 --- task ---
 
-Set up the Pico to read the analogue signal from **Pin 26**, which is connected to Probe A.
+Set up the Raspberry Pi Pico to read the analogue signal from **GP26**, which is connected to **Probe A**.
 
 --- code ---
 ---
@@ -42,14 +42,14 @@ line_highlights: 4
 from picozero import Pot
 from time import sleep
 
-sensor = Pot(26)  # Soil probe input
+sensor = Pot(26)  # moisture probe input
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Continuously take readings from the soil probe. Print them to the Shell, and pause briefly before the next reading.
+Add code to continuously take readings from the moisture probe, print them to the Shell, and pause briefly before the next reading.
 
 --- code ---
 ---
@@ -62,7 +62,7 @@ line_highlights: 6-9
 from picozero import Pot
 from time import sleep
 
-sensor = Pot(26)  # Soil probe input
+sensor = Pot(26)  # moisture probe input
 
 while True:  
     reading = sensor.value  
@@ -74,23 +74,23 @@ while True:
 
 --- task ---
 
-Click **Run** and watch the changing moisture readings as you touch or insert the probes into soil.
+Click on **Run** and watch the moisture readings change as you touch the probe to different items or insert the probe into soil.
 
 --- /task ---
 
 --- task ---
 
-Test the probe behaviour:  
-- Touch the two screws together with some metal — the reading should drop (low resistance).  
-- Separate them — the reading should rise (high resistance).  
-- Insert into wet soil — readings should decrease.  
-- Insert into dry soil — readings should increase.
-- Insert into damp soil — readings should be somewhere in the middle.
+Test the probe's behaviour:  
+- Use some metal to touch the two screws together — the readings should decrease (low resistance) 
+- Separate the screws — the readings should increase (high resistance)
+- Insert the probe into wet soil — the readings should decrease
+- Insert the probe into dry soil — the readings should increase
+- Insert the probe into damp soil — the readings should be somewhere in the middle
 
 --- /task ---
 
 --- task ---
 
-Note down the typical readings for “wet,” “damp,” and “dry” soil to prepare for the next step, where you’ll add an LED alert to tell you if it's too dry.
+Write down the typical readings for 'wet', 'damp', and 'dry' soil to prepare for the next step, where you will add an LED warning light to alert you if the soil is too dry.
 
 --- /task ---

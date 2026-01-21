@@ -1,12 +1,12 @@
-## Wire the Sensor Circuit
+## Wire the sensor circuit
 
-Connect the probe to the pins on the Pico so you can measure the resistance of the soil.
+Connect the probe to the pins on the Raspberry Pi Pico so that you can measure the resistance of the soil.
 
 
 --- task ---
  
-Set the Raspberry Pi Pico securely on a breadboard or workspace so you can easily access all pins for wiring.
-![](images/probe1.png){:width="300px"} 
+Set your Raspberry Pi Pico securely on a breadboard or workspace so that you can easily access all the pins for wiring.
+![A Raspberry Pi Pico H mounted into a breadboard, aligned with the top row.](images/probe1.png){:width="300px"} 
 
 --- /task ---
 
@@ -14,44 +14,44 @@ Set the Raspberry Pi Pico securely on a breadboard or workspace so you can easil
 
 ---
 
-title: I have a moisture probe component - I don't want to use screws!
+title: I have a moisture probe component — I don't want to use screws!
 
 ---
 
-The moisture probe component requires a power suppply to work. Follow these instructions to substitute the moisture probe for the two-screws probe example:
+The moisture probe component will require a power supply to work. Follow these instructions to use a moisture probe component instead of a probe that you have built with screws:
 
 --- task ---
 
-Connect the **VCC** pin on the soil moisture sensor to the **3V3 (OUT)** pin on the Raspberry Pi Pico (pin 36). This provides the sensor with a 3.3V power supply. 
-![](images/probe_probe_3.png){:width="300px"} 
+Connect the **VCC** pin on the moisture sensor to the **3V3 (OUT)** pin on the Raspberry Pi Pico (pin **36**). This will provide the sensor with a 3.3V power supply. 
+![The VCC pin on a soil moisture sensor has been connected to the 3V3 pin on the Raspberry Pi Pico with a jumper wire.](images/probe_probe_3.png){:width="300px"} 
 
 --- /task ---
 
 --- task ---
 
-Connect the **GND** pin on the soil moisture sensor to one of the **GND** pins on the Pico (pin 38). This completes the power circuit.  
-![](images/probe_probe_2.png){:width="300px"}
+Connect the **GND** pin on the moisture sensor to one of the **GND** pins on the Raspberry Pi Pico (pin **38**). This will complete the power circuit.  
+![The GND pin on the soil moisture sensor has been connected to a GND pin on the Raspberry Pi Pico with a jumper wire.](images/probe_probe_2.png){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
-Attach a jumper wire from the **SIG** (signal) pin on the soil moisture sensor to **Pin 31 (GP26 / ADC0)** on the Pico. This allows the Pico to read the analogue signal representing soil moisture. 
-![](images/probe_probe_1.png){:width="300px"} 
+Attach a jumper wire from the **SIG** (signal) pin on the moisture sensor to pin **31 (GP26/ADC0)** on the Raspberry Pi Pico. This will allow the Raspberry Pi Pico to read the analogue signal that represents the soil moisture level. 
+![The SIG pin on the soil moisture sensor has been connected to GP26 on the Raspberry Pi Pico with a jumper wire.](images/probe_probe_1.png){:width="300px"} 
 
 --- /task ---
 
 --- task ---
 
-**Test:** Make sure there are no short circuits or broken connections:  
-- Gently move each jumper and connection to check there is a firm connection between the pins and breadboard.
-- Double-check that the probe doesn't contact the Pico board or any metal parts of your workspace.
+**Test:** Make sure that there are no short circuits or loose connections:
+- Gently move each jumper wire at each connection point to check that there is a firm connection between the pins on the sensor and the breadboard
+- Double-check that the probe does not come into contact with the Raspberry Pi Pico or any metal parts of your workspace
 
 --- /task ---
 
 --- task ---
 
-[Follow the rest of the instructions as normal on the **next step**](https://projects.raspberrypi.org/en/projects/pico-probe/3){:target="_blank"}!
+Now, move on to the [next step](https://projects.raspberrypi.org/en/projects/pico-probe/3){:target="_blank"} to continue the project!
 
 --- /task ---
 
@@ -59,30 +59,30 @@ Attach a jumper wire from the **SIG** (signal) pin on the soil moisture sensor t
 
 --- task ---
  
-Join a wire from **Probe A** to one end of a **10 kΩ resistor**; with a **terminal block** in the breadboard.
-![](images/screws_probe_00.png){:width="300px"}
+Connect the jumper wire attached to **Probe A** to one end of a **10kΩ resistor** with a **terminal block** in the breadboard.
+![The jumper wire attached to Probe A has been connected to one end of a resistor via a terminal block.](images/screws_probe_00.png){:width="300px"}
 
 --- /task ---
 
 --- task ---
  
-Attach the free end of the resistor to **Pin 31 (GP26 / ADC0)** on the Pico. This pin reads the changing voltage from the probe.
-![](images/screws_probe_0.png){:width="300px"}
+Connect the other end of the resistor to pin **31 (GP26/ADC0)** on the Raspberry Pi Pico. This pin will read the changing voltage from the probe.
+![A jumper wire has been connected from the other end of the resistor to GP26 on the Raspberry Pi Pico.](images/screws_probe_0.png){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
-Attach a jumper wire from **Probe B** to one of the **GND** pins on the Pico to complete the ground connection.
-![](images/screws_probe_1.png){:width="300px"}
+Connect the jumper wire attached to **Probe B** to one of the **GND** pins on the Raspberry Pi Pico to complete the ground connection.
+![The jumper wire attached to Probe B has been connected to a GND pin on the Raspberry Pi Pico via the terminal block.](images/screws_probe_1.png){:width="300px"}
 
 --- /task ---
 
 --- task ---
 
-**Test:** Make sure there are no short circuits or broken connections:  
-- Confirm that **Probe A** and **Probe B** are not touching or connected through any conductive path.
-- Gently move each jumper and connection to check there is a firm connection between the pins and breadboard.
-- Double-check that the probe assembly and screws don't contact the Pico board or any metal parts of your workspace.
+**Test:** Make sure that there are no short circuits or loose connections:  
+- Check that **Probe A** and **Probe B** are not touching or connected through any conductive path
+- Gently move each jumper wire at each connection point to check that the components are connected securely
+- Double-check that the probe assembly and screws do not come into contact with the Raspberry Pico or any metal parts of your workspace
 
 --- /task ---

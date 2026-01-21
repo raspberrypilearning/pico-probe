@@ -1,10 +1,10 @@
-## Code the LED indicator
+## Program the LED indicator
 
-Edit your existing program so that an LED lights up when the soil is too dry.  
+Edit your existing program so that the LED lights up when the soil is too dry.  
 
 --- task ---
 
-Edit the first line so it imports both the **Pot** and **LED** classes from picozero.
+Edit the first line so that it imports both the `Pot` and `LED` classes from `picozero`.
 
 --- code ---
 ---
@@ -18,7 +18,7 @@ line_highlights: 1
 from picozero import Pot, LED
 from time import sleep
 
-sensor = Pot(26)  # Soil probe input
+sensor = Pot(26)  # moisture probe input
 
 while True:
     reading = sensor.value()
@@ -30,8 +30,7 @@ while True:
 
 --- task ---
 
-Below your existing line that defines the soil sensor, add a new line to define the LED.  
-This tells the Pico that there’s an LED connected to **Pin 14** (the pin you wired it to).
+Below your line that defines the soil moisture sensor, add a new line to define the LED. This will tell the Raspberry Pi Pico that there is an LED connected to **GP14** (the pin you wired it to).
 
 --- code ---
 ---
@@ -45,7 +44,7 @@ line_highlights: 5
 from picozero import Pot, LED
 from time import sleep
 
-sensor = Pot(26)       # Soil probe input
+sensor = Pot(26)       # moisture probe input
 led = LED(14)          # LED output pin
 
 while True:
@@ -58,8 +57,7 @@ while True:
 
 --- task ---
 
-Above your loop, add a new line to define the dryness threshold.  
-Compare your readings against this value to decide when the LED should turn on.
+Above your loop, add a new line to define the dryness threshold. Compare your readings against this value to decide when the LED should turn on.
 
 --- code ---
 ---
@@ -73,10 +71,10 @@ line_highlights: 7
 from picozero import Pot, LED
 from time import sleep
 
-sensor = Pot(26)       # Soil probe input
+sensor = Pot(26)       # moisture probe input
 led = LED(14)          # LED output pin
 
-dry_limit = 0.6        # Adjust this number after testing
+dry_limit = 0.6        # adjust this number after testing
 
 while True:
     reading = sensor.value
@@ -88,8 +86,7 @@ while True:
 
 --- task ---
 
-Inside the `while True:` loop, add an `if` statement to compare the reading to your dryness limit.  
-**If** the soil is too dry, the LED turns on. **Otherwise**, it stays off.
+Inside the `while True:` loop, add an `if` statement to compare the reading to your dryness threshold. **If** the soil is too dry, the LED will turn on. **Else**, it will stay off.
 
 --- code ---
 ---
@@ -103,18 +100,18 @@ line_highlights: 13-16
 from picozero import Pot, LED
 from time import sleep
 
-sensor = Pot(26)       # Soil probe input
+sensor = Pot(26)       # moisture probe input
 led = LED(14)          # LED output pin
 
-dry_limit = 0.6        # Adjust this number after testing
+dry_limit = 0.6        # adjust this number after testing
 
 while True:
     reading = sensor.value
-    print("Soil moisture:", round(moisture, 2))
+    print("Soil moisture:", round(reading, 2))
 
-    if reading > dry_limit:     # Soil is too dry
+    if reading > dry_limit:     # soil is too dry
         led.on()
-    else:                        # Soil is fine
+    else:                        # soil is fine
         led.off()
     sleep(1)
 --- /code ---
@@ -123,9 +120,8 @@ while True:
 
 --- task ---
 
-Click **Run** to test your code.  
-When the probe is in dry soil, the LED should light up.  
-When the soil is damp or wet, the LED should stay off.  
-Adjust the `dry_limit` number if needed so the LED changes state at the right point.
+Click on **Run** to test your code. When the probe is in dry soil, the LED should light up. When the soil is damp or wet, the LED should stay off.
+
+If you need to, adjust the `dry_limit` number so that the LED changes state at the right point.
 
 --- /task ---
