@@ -1,12 +1,10 @@
 ## What you will make
-OR
-## What you will do - change meta if you use this
 
-A brief description - one or two sentences. 
+A soil moisture sensor to check how dry the soil is. It warns the user with a light. When the soil becomes too dry, the light turns on to show that the plant needs water.
 
 --- print-only ---
 
-![ALT TEXT](images/IMAGE.png)
+![ soil moisture sensor to check how dry the soil is. It warns the user with a light. When the soil becomes too dry, the light turns on to show that the plant needs water.](images/probedemo.png)
 
 --- /print-only ---
 
@@ -18,28 +16,34 @@ A brief description - one or two sentences.
 
 --- no-print ---
 
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
 <html>
 <div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/sh4gyo-vds8?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
 </iframe>
 </div><br>
 </html>
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
-
 --- /no-print ---
 
 ### You will need:
-- a
-- b
-- c
+
+**For the circuit:**
+- Raspberry Pi Pico
+- Pin-pin jumper wires
+- Terminal block
+- 10kΩ or 11kΩ resistor
+- LED (any color)
+- 5V USB power or battery pack (optional)
+
+**For the soil probe:**
+- Two metal screws
+- Material to hold the screws (bottle lid, yoghurt cup, popsicle stick, or scrap wood)
+- Scissors
+- Pen?
+- Handle material (such as…..
+- Wire stippers?
+- Glue / tape?
+- Pin-socket jumper wires 
+
+
+

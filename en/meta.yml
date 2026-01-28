@@ -1,13 +1,19 @@
-title: Project title in sentence case
+title: Soil moisture sensor
 hero_image: images/banner.png
-description: A short description of the project
+description: Make a soil moisture probe to detect how dry the soil is and turn on a warning light when it is too dry
 listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Build the soil probe
     completion:
       - engaged      
+  - title: Wire the sensor circuit
+  - title: Program the sensor
+    completion:
+      - internal
+  - title: Add the LED indicator
+  - title: Program the LED indicator
   - title: Challenge
     challenge: true
     completion:
