@@ -1,10 +1,10 @@
 ## What you will make
 
-A soil moisture sensor to check how dry the soil is. It warns the user with a light. When the soil becomes too dry, the light turns on to show that the plant needs water.
+Make a soil moisture sensor to check how dry some soil is. When the soil becomes too dry, an LED warning light will turn on to show that the plant needs water.
 
 --- print-only ---
 
-![ soil moisture sensor to check how dry the soil is. It warns the user with a light. When the soil becomes too dry, the light turns on to show that the plant needs water.](images/probedemo.png)
+![A soil moisture probe being inserted into a bowl of water.](images/probedemo.png)
 
 --- /print-only ---
 
@@ -29,20 +29,20 @@ A soil moisture sensor to check how dry the soil is. It warns the user with a li
 
 **For the circuit:**
 - Raspberry Pi Pico
-- Pin-pin jumper wires
+- Pin–pin jumper wires
 - Terminal block
 - 10kΩ or 11kΩ resistor
-- LED (any color)
-- 5V USB power or battery pack (optional)
+- LED (any colour)
+- 5V USB power supply or battery pack (optional)
 
-**For the soil probe:**
+**For the moisture probe:**
 - Two metal screws
-- Material to hold the screws (bottle lid, yoghurt cup, popsicle stick, or scrap wood)
+- Material to hold the screws (such as a bottle lid, a yoghurt cup, an ice lolly stick, or scrap wood)
+- Material to make the handle (such as recycled wood or plastic, sticks, or food containers)
 - Scissors
-- Pen?
-- Handle material (such as…..
-- Wire stippers?
-- Glue / tape?
+- Pen
+- Wire strippers
+- Glue or sticky tape
 - Pin-socket jumper wires 
 
 
