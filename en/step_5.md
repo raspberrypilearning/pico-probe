@@ -47,8 +47,8 @@ If your LED does not light:
 
 --- task ---
 
-Move the jumper wire connected to the resistor from pin **36** to **GP14** on the Raspberry Pi Pico. This pin will control the LED signal.
-![The jumper wire connected to the resistor has been moved to GP14.](images/screw_probe_LED4.png){:width="300px"}
+Move the jumper wire connected to the resistor from pin **36** to **GP15** on the Raspberry Pi Pico. This pin will control the LED signal.
+![The jumper wire connected to the resistor has been moved to GP15.](images/screw_probe_LED4.png){:width="300px"}
 
 --- /task ---
 

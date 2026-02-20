@@ -8,11 +8,6 @@ Make a soil moisture sensor to check how dry some soil is. When the soil becomes
 
 --- /print-only ---
 
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
 
 --- no-print ---
 
