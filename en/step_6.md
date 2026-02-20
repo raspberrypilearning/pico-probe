@@ -21,7 +21,7 @@ from time import sleep
 sensor = Pot(26)  # moisture probe input
 
 while True:
-    reading = sensor.value()
+    reading = sensor.value
     print("Soil moisture:", round(reading, 2))
     sleep(1)
 --- /code ---
@@ -30,7 +30,7 @@ while True:
 
 --- task ---
 
-Below your line that defines the soil moisture sensor, add a new line to define the LED. This will tell the Raspberry Pi Pico that there is an LED connected to **GP14** (the pin you wired it to).
+Below your line that defines the soil moisture sensor, add a new line to define the LED. This will tell the Raspberry Pi Pico that there is an LED connected to **GP15** (the pin you wired it to).
 
 --- code ---
 ---
@@ -45,10 +45,10 @@ from picozero import Pot, LED
 from time import sleep
 
 sensor = Pot(26)       # moisture probe input
-led = LED(14)          # LED output pin
+led = LED(15)          # LED output pin
 
 while True:
-    reading = sensor.value()
+    reading = sensor.value
     print("Soil moisture:", round(reading, 2))
     sleep(1)
 --- /code ---
@@ -72,7 +72,7 @@ from picozero import Pot, LED
 from time import sleep
 
 sensor = Pot(26)       # moisture probe input
-led = LED(14)          # LED output pin
+led = LED(15)          # LED output pin
 
 dry_limit = 0.6        # adjust this number after testing
 
@@ -101,7 +101,7 @@ from picozero import Pot, LED
 from time import sleep
 
 sensor = Pot(26)       # moisture probe input
-led = LED(14)          # LED output pin
+led = LED(15)          # LED output pin
 
 dry_limit = 0.6        # adjust this number after testing
 

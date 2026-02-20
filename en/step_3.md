@@ -2,7 +2,6 @@
 
 Connect the probe to the pins on the Raspberry Pi Pico so that you can measure the resistance of the soil.
 
-
 --- task ---
  
 Set your Raspberry Pi Pico securely on a breadboard or workspace so that you can easily access all the pins for wiring.
